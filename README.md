@@ -19,9 +19,12 @@ This project provides a sentiment analysis system for healthcare/drug reviews wi
 
 ## Setup and Installation
 
-1. Clone the repository
+1. Clone the repository:
+
 git clone https://github.com/sontung2310/Sentiment-Analysis-in-Healthcare.git
+
 2. Install dependencies:
+
 pip install -r requirement.txt
 
 3. Set up environment variables:
@@ -30,9 +33,9 @@ pip install -r requirement.txt
    - Add your Huggingface API: `HUGGINGFACE_API_KEY=your_api_string`
 
 4. Run the applications:
-   - ExploratoryData Analysis (EDA) and run inference on the 4-bit version of Mistral-7B: `inference_mistral7B.ipynb`
+   - ExploratoryData Analysis (EDA) and Run inference on the 4-bit version of Mistral-7B: `inference_mistral7B.ipynb`
    - Fine-tune Mistral 7B model: `finetuning_mistral.ipynb` 
-   - Start FastAPI server: `python app.py` (If you run in Google Colab, using `uvicorn app:app --reload`)
+   - Start FastAPI server: `python app.py` (If you are running it in Google Colab, use `uvicorn app:app --reload`)
    - Launch Gradio UI for feedback: `gradio_ui.ipynb`
    - Launch Streamlit dashboard: `streamlit run report_healthcare.py`
 
