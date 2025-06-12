@@ -21,11 +21,11 @@ This project provides a sentiment analysis system for healthcare/drug reviews wi
 
 1. Clone the repository:
 
-git clone https://github.com/sontung2310/Sentiment-Analysis-in-Healthcare.git
+`git clone https://github.com/sontung2310/Sentiment-Analysis-in-Healthcare.git`
 
 2. Install dependencies:
 
-pip install -r requirement.txt
+`pip install -r requirement.txt`
 
 3. Set up environment variables:
    - Create a `.env` file in the root directory
